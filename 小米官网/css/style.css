@@ -1,0 +1,583 @@
+﻿			/*头部logo*/
+			
+			header {
+				height: 112px;
+				background: #EDEDED;
+			}
+			
+			header img {
+				height: 112px;
+				margin-left: 250px;
+			}
+			/*导航条*/
+			
+			nav {
+				height: 40px;
+				background: #333333;
+			}
+			
+			nav ul {
+				width: 1230px;
+				height: 40px;
+				margin: 0 auto;
+				color: #B1B0B0;
+				font-size: 12.8px;
+			}
+			
+			nav ul li {
+				float: left;
+				line-height: 40px;
+				margin-left: 16px;
+			}
+			
+			nav .dLi {
+				margin-left: 288px;
+			}
+			
+			nav .shopLi {
+				background: #424242;
+			}
+			
+			nav .shopLi img {
+				height: 32px;
+				vertical-align: middle;
+			}
+			
+			.dhUl1:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.mainBox {
+				width: 1230px;
+				margin: 0 auto;
+			}
+			/*副导航部分*/
+			
+			.dhUl2 {
+				width: 1230px;
+				height: 80px;
+				font-size: 12.8px;
+				line-height: 80px;
+			}
+			
+			.dhUl2 li {
+				float: left;
+				margin-left: 24px;
+			}
+			
+			.logoLi1 {
+				margin-left: 0;
+			}
+			
+			.logoLi1 img,
+			.logoLi2 img {
+				height: 56px;
+				margin-top: 16px;
+			}
+			
+			.logoLi2 img {
+				margin-left: 48px;
+			}
+			
+			.dhUl2 .listLi1-1 {
+				margin-left: 4.5rem;
+			}
+			
+			.searchLi input {
+				width: 240px;
+				height: 32px;
+				margin-left: 32px;
+				background-image: url("../img/sousuo.png");
+				background-repeat: no-repeat;
+				background-position: right;
+			}
+			
+			.dhUl2:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			/*banner部分*/
+			
+			.mainBox .bannerDiv {
+				width: 1230px;
+				height: 458px;
+				position: relative;
+			}
+			
+			.banner-div {
+				width: 1230px;
+				height: 458px;
+				position: relative;
+			}
+			
+			.banner-ul li {
+				position: absolute;
+				display: none;
+			}
+			
+			.banner-ul img {
+				width: 1230px;
+				height: 458px;
+			}
+			
+			.bannerUl {
+				width: 235px;
+				height: 458px;
+				background: #0C0D0F;
+				color: white;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 1;
+			}
+			
+			.bannerDiv .bannerUl li {
+				margin-left: 32px;
+				line-height: 42.5px;
+			}
+			
+			.show-div {
+				width: 300px;
+				height: 458px;
+				background: gray;
+				position: absolute;
+				top: 0;
+				left: 235px;
+				z-index: 100;
+				display: none;
+				text-align: center;
+				line-height: 458px;
+				font-size: 20px;
+				color: white;
+			}
+			
+			.banlistLi1:hover {
+				cursor: pointer;
+				color: #FF6B0C;
+			}
+			
+			.mainBox .listUl {
+				margin-top: 16px;
+				width: 1230px;
+			}
+			
+			.listUl .xLi,
+			.listUl .tLi {
+				height: 170px;
+				float: left;
+			}
+			
+			.listUl .tLi {
+				width: 315px;
+				margin-left: 16px;
+			}
+			
+			.tLi img {
+				width: 315px;
+				height: 170px;
+			}
+			
+			.listUl .xLi {
+				width: 236px;
+				background: #5F5750;
+			}
+			
+			.listUl:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.lxUl1 {
+				text-align: center;
+				float: left;
+				margin-left: 20.8px;
+				font-size: 12.8px;
+				margin-top: 16px;
+			}
+			
+			.lxUl2 {
+				text-align: center;
+				float: left;
+				margin-left: 20.8px;
+				font-size: 12.8px;
+				margin-top: 30px;
+			}
+			
+			span {
+				font-size: 20px;
+				display: inline-block;
+			}
+			
+			.dpUl {
+				width: 3000px;
+				margin-top: 10px;
+			}
+			
+			.dpUl li {
+				width: 235px;
+				height: 340px;
+				float: left;
+				text-align: center;
+				background: #FAFAFA;
+			}
+
+			.dpUl li img {
+				margin-top: 45px;
+			}
+			
+			.p1 {
+				margin-top: 30px;
+			}
+			
+			.p2 {
+				font-size: 12px;
+				color: #b0b0b0;
+				margin-top: 10px;
+			}
+			
+			.p3 {
+				color: #ff6b0c;
+				margin-top: 18px;
+			}
+			
+			.dpLi2,
+			.dpLi3,
+			.dpLi4,
+			.dpLi5 {
+				margin-left: 13px;
+			}
+			
+			.dpLi1 {
+				border-top: 1px solid #ffb733;
+			}
+			
+			.dpLi2 {
+				border-top: 1px solid #92cb64;
+			}
+			
+			.dpLi3 {
+				border-top: 1px solid #3da3f4;
+			}
+			
+			.dpLi4 {
+				border-top: 1px solid #e95450;
+			}
+			
+			.dpLi5 {
+				border-top: 1px solid #21c7b0;
+			}
+			
+			.dpUl:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.mainBox2 {
+				width: 1230px;
+				margin: 0 auto;
+				background: #F5F5F5;
+			}
+			
+			.mainBox2 .mainBox21 {
+				width: 1224px;
+				margin: 50px auto;
+			}
+			
+			.mainBox21 .jdDiv {
+				width: 1230px;
+				margin-top: 10px;
+			}
+			
+			.mainBox21 .jdDiv .jdImg {
+				float: left;
+			}
+			
+			.jdImg img {
+				height: 610px;
+				width: 235px;
+			}
+			
+			.mainBox21 .jdDiv .jdBox {
+				float: left;
+			}
+			
+			.jdBox li {
+				width: 235px;
+				height: 300px;
+				float: left;
+				text-align: center;
+				margin-left: 13px;
+				background: #FEFEFE;
+			}
+			
+			.jdBox li img {
+				margin-top: 55px;
+			}
+			
+			.jdBox .ul2 li {
+				margin-top: 10px;
+			}
+			
+			.lastLi .div1 {
+				width: 235px;
+				height: 145px;
+				background: #FEFEFE;
+			}
+			
+			.lastLi .div2 {
+				width: 235px;
+				height: 145px;
+				background: #FEFEFE;
+				margin-top: 10px;
+			}
+			
+			.jdDiv:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.znUl1 {
+				width: 1230px;
+				margin: 0 auto;
+			}
+			
+			.znUl1 li {
+				width: 235px;
+				height: 300px;
+				float: left;
+				text-align: center;
+				background: #FEFEFE;
+			}
+			
+			.znLi2 {
+				margin-left: 13px;
+			}
+			
+			.znLi2 img {
+				margin-top: 40px;
+			}
+			
+			.znLi1 {
+				background: none;
+			}
+			
+			.znLi1 img {
+				width: 235px;
+				height: 300px;
+			}
+			
+			.znUl2 {
+				width: 1230px;
+				margin: 0 auto;
+			}
+			
+			.znUl2 li {
+				width: 235px;
+				height: 300px;
+				float: left;
+				text-align: center;
+				margin-top: 10px;
+				background: #FEFEFE;
+			}
+			
+			.znUl2:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.mesUl li {
+				float: left;
+				right: 0;
+				margin-left: 10px;
+			}
+			
+			.listUl2 .tLi2 {
+				height: 400px;
+				float: left;
+				background: #FEFEFE;
+			}
+			
+			.listUl2 .tLi2 {
+				width: 295px;
+				margin-left: 16px;
+			}
+			.listUl2 li{
+				cursor: pointer;
+			}
+			
+			.tLi2 img {
+				width: 295px;
+				height: 220px;
+			}
+			
+			.listUl2:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.listUl3 .tLi3 {
+				height: 400px;
+				float: left;
+				background: #FEFEFE;
+			}
+			
+			.listUl3 .tLi3 {
+				width: 295px;
+				margin-left: 16px;
+			}
+			
+			.listUl3:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.listUl4,
+			.listUl3,
+			.listUl2 {
+				width: 1230px;
+			}
+			
+			.listUl4 .tLi4 {
+				text-align: center;
+				height: 300px;
+				float: left;
+				background: #FEFEFE;
+			}
+			
+			.listUl4 .tLi4 {
+				width: 295px;
+				margin-left: 16px;
+			}
+			
+			.tLi4 img {
+				width: 295px;
+				height: 180px;
+			}
+			
+			.listUl4:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.mainBox3 {
+				margin: 0 auto;
+			}
+			
+			.botLi1 {
+				margin-left: 135px;
+				height: 40px;
+				line-height: 40px;
+				float: left;
+			}
+			
+			.mainUl3:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.texUl1 {
+				margin-top: 50px;
+				text-align: center;
+			}
+			
+			.texUl1 li {
+				height: 30px;
+				line-height: 20px;
+			}
+			
+			.ztxUl1 .ztxLl1 {
+				margin-left: 80px;
+				float: left;
+			}
+			
+			.ztxUl1:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.texUl2 li {
+				float: left;
+			}
+			
+			.texUl2:after {
+				display: block;
+				clear: both;
+				content: "";
+			}
+			
+			.fo-Ul li {
+				font-size: 12px;
+				color: gray;
+			}
+			
+			.mainUl3 {
+				width: 1200px;
+				height: 40px;
+				border-bottom: 1px solid gray;
+				color: gray;
+			}
+			
+			.mainUl4 {
+				width: 1224px;
+				margin: 100px auto;
+			}
+			
+			.mainLi4 {
+				float: left;
+				margin-left: 55px;
+			}
+			
+			.mainLi4-1 {
+				margin-left: 0;
+			}
+			
+			.mainLi4-2 {
+				margin-left: 10px;
+			}
+			
+			.ballP {
+				float: left;
+				margin-left: 30px;
+			}
+			/*----------------*/
+			
+			.listDiv {
+				width: 1230px;
+				height: 100px;
+				background: white;
+				opacity: .8;
+				margin: 0 auto;
+				display: none;
+				position: absolute;
+				z-index: 100;
+				text-align: center;
+				line-height: 100px;
+				font-size: 30px;
+			}
+			
+			.dhUl2 {
+				position: relative;
+			}
+			
+			.listLi1:hover {
+				cursor: pointer;
+				color: #FF6B0C;
+			}
+			
+			.hover-li:hover {
+				cursor: pointer;
+				box-shadow: 0 5px 20px #ccc;
+				transition: all .5s;
+			}
